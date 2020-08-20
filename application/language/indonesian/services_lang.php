@@ -15,7 +15,7 @@ $lang['service_5_title'] = 'Services And Installation';
 #################################
 
 $lang['service_1_desc'] = 'High quality with Safety Of Life At Sea (SOLAS) standard: <span class="collapse" id="mrcollapse">
-<ul style="list-style: circle;text-align: justify;">
+<ul style="list-style: circle;text-align: left;">
     <li>Lashing equipment (Turn buckle, Tensioner, e.g., chain, ratchet,etc.)</li>
     <li>Deck (Pilot - Embarkation ladder, Tail rope, Mooring rope,etc.)</li>
     <li>Bunker, fresh water supply,etc.</li>
@@ -27,10 +27,10 @@ $lang['service_1_desc'] = 'High quality with Safety Of Life At Sea (SOLAS) stand
     <li>Charts/publication</li>
     <li>Chemical product for maintenance, water/oil treatment, cleaning, pollutioncontrol.</li>
 </ul>
-</span> <a class="collapers" href="#" data-toggle="collapse" data-target="#mrcollapse" aria-expanded="false" aria-controls="mrcollapse">Read More..</a>';
+</span> <a class="collapers btn btn-warning btn-sm " href="#" data-toggle="collapse" data-target="#mrcollapse" aria-expanded="false" aria-controls="mrcollapse">Read More..</a>';
 
 $lang['service_2_desc'] = 'The following are a brief outline of some of the various types of survey and consultancy work undertaken <span class="collapse" id="spcollapse">
-<ul style="list-style: circle;text-align: justify;">
+<ul style="list-style: circle;text-align: left;">
     <li>DraughtSurveys</li>
     <li>On and Off HireSurveys</li>
     <li>Hatch and Tank CleanlinessSurveys.</li>
@@ -41,12 +41,12 @@ $lang['service_2_desc'] = 'The following are a brief outline of some of the vari
     <li>Underwater Hull Inspections and/or CleaningSupervision.</li>
     <li>Flag State Annual SafetyInspections</li>
 </ul>
-</span><a class="collapers" href="#" data-toggle="collapse" data-target="#spcollapse" aria-expanded="false" aria-controls="spcollapse">Read More..</a>';
+</span><a class="collapers btn btn-warning btn-sm " href="#" data-toggle="collapse" data-target="#spcollapse" aria-expanded="false" aria-controls="spcollapse">Read More..</a>';
 
-$lang['service_3_desc'] = 'Agency service is one of PT. SAGARA BERKAH MARINE service consist of shipping agency for domestic and foreign ships,supported by our experienced personnel throughout Indonesia. <span class="collapse" id="itcollapse">We are growing and expanding our businesses in Indonesia by providing a full range of shipping agency for all types of vessels such as Tanker vessels, Container vessels, Bulk vessels, General cargo vessels, roll on – roll off (RORO) vessels andothers.</span><a class="collapers" href="#" data-toggle="collapse" data-target="#itcollapse" aria-expanded="false" aria-controls="itcollapse">Read More..</a>';
+$lang['service_3_desc'] = 'Agency service is one of PT. SAGARA BERKAH MARINE service consist of shipping agency for domestic and foreign ships,supported by our experienced personnel throughout Indonesia. <span class="collapse" id="itcollapse">We are growing and expanding our businesses in Indonesia by providing a full range of shipping agency for all types of vessels such as Tanker vessels, Container vessels, Bulk vessels, General cargo vessels, roll on – roll off (RORO) vessels andothers.</span><a class="collapers btn btn-warning btn-sm " href="#" data-toggle="collapse" data-target="#itcollapse" aria-expanded="false" aria-controls="itcollapse">Read More..</a>';
 
 $lang['service_4_desc'] = 'With highly experienced and full skilled technician/engineer in each section which will solve the problem on board. <span class="collapse" id="recollapse">
-<ul style="list-style: circle;text-align: justify;">
+<ul style="list-style: circle;text-align: left;">
     <li>EngineOverhaul</li>
     <li>Electro Motorrepair/rewind</li>
     <li>Trouble Shooting Electric</li>
@@ -57,10 +57,10 @@ $lang['service_4_desc'] = 'With highly experienced and full skilled technician/e
     <li>Crane</li>
     <li>Etc.</li>
 </ul>
-</span><a class="collapers" href="#" data-toggle="collapse" data-target="#recollapse" aria-expanded="false" aria-controls="recollapse">Read More..</a>';
+</span><a class="collapers btn btn-warning btn-sm " href="#" data-toggle="collapse" data-target="#recollapse" aria-expanded="false" aria-controls="recollapse">Read More..</a>';
 
 $lang['service_5_desc'] = 'Engineering – Constructions - Mechanical <span class="collapse" id="s5collapse">
-<ul style="list-style: circle;text-align: justify;">
+<ul style="list-style: circle;text-align: left;">
     <li>Under Water Survey/Inspection, UWILD, Cleaning, Polishing Propeller (Class Approval), Searching the sank of anchor/chain/grab bucket, repairs (welding/un welding), Salvage, etc.</li>
     <li>Generator/Electrical, Motorrepair/rewind</li>
     <li>Survey - annual, intermediate and special periodical</li>
@@ -87,7 +87,7 @@ $lang['service_5_desc'] = 'Engineering – Constructions - Mechanical <span clas
 		</ul>
     </li>
 </ul>
-</span><a class="collapers" href="#" data-toggle="collapse" data-target="#s5collapse" aria-expanded="false" aria-controls="s5collapse">Read More..</a>';
+</span><a class="collapers btn btn-warning btn-sm " href="#" data-toggle="collapse" data-target="#s5collapse" aria-expanded="false" aria-controls="s5collapse">Read More..</a>';
 
 $lang['business_title'] = 'Bisnis';
 

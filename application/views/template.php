@@ -70,13 +70,14 @@
 <body>
     
 <!-- navbar area start -->
-<nav class="navbar navbar-area navbar-expand-lg nav-absolute black nav-style-01 header-style-09 " style="position: fixed;
-background-color:#f9f9f9f2;z-index: 3;">
+<nav class="navbar navbar-area navbar-expand-lg nav-absolute black nav-style-01 header-style-09 nav-fixed" style="position: fixed;
+    background-color:#f9f9f9f2;
+    z-index: 3;padding:0px">
     <div class="container nav-container">
         <div class="responsive-mobile-menu">
             <div class="logo-wrapper">
                 <a href="/" class="logo">
-                    <img src="<?=base_url()?>assets/images/logo/sbm-logo.png" alt="SBM Logo" style="width: 110px">
+                    <img src="<?=base_url()?>assets/images/logo/sbm-logo.png" alt="SBM Logo" style="width: 45px">
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#appside_main_menu" 
@@ -144,7 +145,7 @@ background-color:#f9f9f9f2;z-index: 3;">
             <div class="row">
                 <div class="col-sm-3">
                     <div class="footer-widget about_widget" style="color: black">
-                        <a href="/" class="footer-logo"><img src="<?=base_url()?>assets/images/logo/logo-rcm.png" style="width: 120px" alt="Maxco Logo"></a>
+                        <a href="/" class="footer-logo"><img src="<?=base_url()?>assets/images/logo/sbm-logo.png" style="background-color: white;width: 120px" alt="Maxco Logo"></a>
                         <p style="/*color:black*/">Jl. Yos Sudarso Kav. 33<br>
                         Sunter Jaya RT. 008 RW. 011<br>
                        Tanjung Priok, Jakarta Utara 14350</p>

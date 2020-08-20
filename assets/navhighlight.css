@@ -1,3 +1,29 @@
 .active{
 	background-color : rgba(1, 32, 97, 0.22)
 }
+
+.mycard{
+	box-shadow: 0 2px 18px 0 rgba(0,0,0,.3);
+	border-radius: 20px 20px 20px 20px;
+	padding: 22px;
+}
+
+.myimg-top-overflow{
+    position: relative;
+    top: -70px;
+}
+
+.myimg-top-overflow > img {
+	
+	width: 89px;
+}
+
+.mygoing-up{
+	margin-top: -60px;
+}
+
+.nav-fixed{
+    position: fixed;
+    background-color:#f9f9f9f2;
+    z-index: 3;
+  }
