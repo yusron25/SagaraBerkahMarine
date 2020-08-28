@@ -6,7 +6,7 @@
   box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.3);
   border-radius: 20px 20px 20px 20px;
   padding: 22px;
-  min-height: 600px;
+  /*min-height: 600px;*/
 }
 
 .myimg-top-overflow {
@@ -33,4 +33,19 @@
     background-color: #f9f9f9f2;
     z-index: 1;
   }
+}
+
+.img-left-side{
+  position: absolute;
+  left: -50px;
+  height: 200px;
+  max-width: none;
+  top: 18%;
+}
+.img-right-side{
+  position: absolute;
+  right: -50px;
+  height: 200px;
+  max-width: none;
+  top: 18%;
 }

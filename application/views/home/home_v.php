@@ -33,17 +33,34 @@
         </div>
         <div class="row justify-content-center">
 
-            <div class="col-sm-4 my-5 ">
-                <div class="mycard">
-                    <div class="single-discover-item">
-                        <div class="icon myimg-top-overflow">
-                            <!-- <i class="flaticon-chat"></i> -->
-                            <img src="<?= base_url() ?>assets/images/featured/life-guard.png" alt="">
+
+            <div class="col-sm-11 my-5" >
+                <div class="mycard ">
+                    <div class="row">
+                        <div class="col-2">                            
+                            <img class="img-left-side" src="<?= base_url() ?>assets/images/featured/life-guard.png" alt="">
                         </div>
-                        <div class="content mygoing-up">
+                        <div class="col-10">
                             <h4 class="title"><?= $this->lang->line('service_1_title') ?></h4>
                             <div style="text-align: left;">
                                 <?= $this->lang->line('service_1_desc') ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+           <!--  <div class="col-sm-12 my-5 ">
+                <div class="mycard">
+                    <div class="single-discover-item">
+                        <div class="icon myimg-top-overflow">
+                            
+                            <img src="<?//= base_url() ?>assets/images/featured/life-guard.png" alt="">
+                        </div>
+                        <div class="content mygoing-up">
+                            <h4 class="title"><?//= $this->lang->line('service_1_title') ?></h4>
+                            <div style="text-align: left;">
+                                <?//= $this->lang->line('service_1_desc') ?>
                             </div>
 
 
@@ -51,32 +68,31 @@
                     </div>
                 </div>
 
-            </div>
-            <div class="col-sm-4  my-5">
-                <div class="mycard">
-                    <div class="single-discover-item">
-                        <div class="icon myimg-top-overflow">
-                            <!-- <i class="flaticon-shield-1"></i> -->
-                            <img src="<?= base_url() ?>assets/images/featured/technical-support.png" alt="">
-                        </div>
-                        <div class="content mygoing-up">
+            </div> -->
+            <div class="col-sm-11 my-5 offset-md-1">
+                <div class="mycard ">
+                    <div class="row">
+                        
+                        <div class="col-10">
                             <h4 class="title"><?= $this->lang->line('service_2_title') ?></h4>
                             <div style="text-align: left;">
                                 <?= $this->lang->line('service_2_desc') ?>
                             </div>
                         </div>
+                        <div class="col-2">                            
+                            <img class="img-right-side" src="<?= base_url() ?>assets/images/featured/technical-support.png" alt="">
+                        </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col-sm-4  my-5">
-                <div class="mycard">
-                    <div class="single-discover-item">
-                        <div class="icon myimg-top-overflow">
-                            <!-- <i class="flaticon-cloud"></i> -->
-                            <img src="<?= base_url() ?>assets/images/featured/boat.png" alt="">
+            <div class="col-sm-11 my-5 ">
+                <div class="mycard ">
+                    <div class="row">
+                        <div class="col-2">                            
+                            <img style="top:-40px" class="img-left-side" src="<?= base_url() ?>assets/images/featured/boat.png" alt="">
                         </div>
-                        <div class="content mygoing-up">
+                        <div class="col-10">
                             <h4 class="title"><?= $this->lang->line('service_3_title') ?></h4>
                             <div style="text-align: left;">
                                 <?= $this->lang->line('service_3_desc') ?>
@@ -85,44 +101,38 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-6  my-5">
-                <div class="mycard">
-                    <div class="single-discover-item">
-                        <div class="icon myimg-top-overflow">
-                            <!-- <i class="flaticon-layers-2"></i> -->
-                            <img src="<?= base_url() ?>assets/images/featured/toolbox.png" alt="">
-                        </div>
-                        <div class="content mygoing-up">
+            <div class="col-sm-11 my-5 offset-md-1">
+                <div class="mycard ">
+                    <div class="row">
+                        
+                        <div class="col-10">
                             <h4 class="title"><?= $this->lang->line('service_4_title') ?></h4>
                             <div style="text-align: left;">
                                 <?= $this->lang->line('service_4_desc') ?>
                             </div>
-
-
+                        </div>
+                        <div class="col-2">                            
+                            <img class="img-right-side" src="<?= base_url() ?>assets/images/featured/toolbox.png" alt="">
                         </div>
                     </div>
                 </div>
-
             </div>
-
-            <div class="col-sm-6  my-5">
-                <div class="mycard">
-                    <div class="single-discover-item">
-                        <div class="icon myimg-top-overflow">
-                            <!--  <i class="flaticon-layers-2"></i> -->
-                            <img src="<?= base_url() ?>assets/images/featured/service-maintenance1.png" alt="">
+            <div class="col-sm-11 my-5 ">
+                <div class="mycard ">
+                    <div class="row">
+                        <div class="col-2">                            
+                            <img class="img-left-side" src="<?= base_url() ?>assets/images/featured/service-maintenance1.png " alt="">
                         </div>
-                        <div class="content mygoing-up">
+                        <div class="col-10">
                             <h4 class="title"><?= $this->lang->line('service_5_title') ?></h4>
                             <div style="text-align: left;">
                                 <?= $this->lang->line('service_5_desc') ?>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
 </section>
 
