@@ -12,7 +12,9 @@
                 <div class="info-box mb-4">
                     <i class="bx bx-map"></i>
                     <h3>Our Address</h3>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <p> KIRANA 2 TOWER, Floor 10th –A<br>
+                        JL. Boulevard Timur No. 88 <br>
+                        Kelapa Gading - Jakarta Utara 14240</p>
                 </div>
             </div>
 
@@ -20,7 +22,7 @@
                 <div class="info-box  mb-4">
                     <i class="bx bx-envelope"></i>
                     <h3>Email Us</h3>
-                    <p>contact@example.com</p>
+                    <p>official@sagarabm.com</p>
                 </div>
             </div>
 
@@ -28,7 +30,7 @@
                 <div class="info-box  mb-4">
                     <i class="bx bx-phone-call"></i>
                     <h3>Call Us</h3>
-                    <p>+1 5589 55488 55</p>
+                    <p>+62 21 29222999</p>
                 </div>
             </div>
 
