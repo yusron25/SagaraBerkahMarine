@@ -20,7 +20,7 @@
 
         <div class="section-title">
             <h3>Our <span>Business</span></h3>
-            <img src="assets\images\bisnis.png" alt="">
+            <img class="img-fluid" src="assets\images\bisnis.png" alt="">
         </div>
 
         <div class="section-title">

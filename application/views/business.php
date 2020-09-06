@@ -4,7 +4,7 @@
         <div class="section-title">
             <h2>Services</h2>
             <h3>Our <span>Business</span></h3>
-            <img src="assets\images\bisnis.png" alt="">
+            <img class="img-fluid" src="assets\images\bisnis.png" alt="">
         </div>
         <!-- ############################################### -->
         <div class="row my-5 py-5">
