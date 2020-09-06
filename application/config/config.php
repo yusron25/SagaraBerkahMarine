@@ -24,7 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 $httpsx = (isset($_SERVER['HTTPS'])) ? 'https' : 'http';
-$config['base_url'] =  $httpsx . '://' . $_SERVER['HTTP_HOST'] . "/sbm/";
+$config['base_url'] =  $httpsx . '://' . $_SERVER['HTTP_HOST'] . "/";
 
 /*
 |--------------------------------------------------------------------------
