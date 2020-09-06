@@ -24,7 +24,7 @@
         </div>
 
         <div class="section-title">
-            <a href="/our-business">
+            <a href="<?= base_url() ?>/our-business">
                 <h2>Find Out More Our Business</h2>
             </a>
         </div>
