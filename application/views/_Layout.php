@@ -138,7 +138,7 @@
                         <h4>Useful Links</h4>
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>/">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>/our-bussiness">Our Business</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>/our-business">Our Business</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>/about-us">About Us</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>/contact">Contact</a></li>
                         </ul>
