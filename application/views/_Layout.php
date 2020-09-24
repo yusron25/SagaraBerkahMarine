@@ -62,20 +62,9 @@
 <body>
 
     <!-- ======= Top Bar ======= -->
-    <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+    <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top" style="height: 50px;">
         <div class="container d-flex">
-            <div class="contact-info mr-auto">
-                <i class="icofont-envelope"></i> <a href="<?= base_url() ?>mailto:official@sagarabm.com">official@sagarabm.com</a>
-                <a href="<?= base_url() ?>mailto:ops@sagarabm.com">ops@sagarabm.com</a>
-
-                <i class="icofont-phone"></i> +62 21 29222999
-            </div>
-            <div class="social-links">
-                <a href="<?= base_url() ?>#" class="twitter"><i class="icofont-twitter"></i></a>
-                <a href="<?= base_url() ?>#" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="<?= base_url() ?>#" class="instagram"><i class="icofont-instagram"></i></a>
-                <a href="<?= base_url() ?>#" class="skype"><i class="icofont-skype"></i></a>
-                <a href="<?= base_url() ?>#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+            <div class="contact-info mr-auto" style="font-size: 24px;font-weight: bolder;">PT. SAGARA <span style="color: gold;">BERKAH</span> MARINE
             </div>
         </div>
     </div>
@@ -84,7 +73,7 @@
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo mr-auto"><a href="<?= base_url() ?>index.html">
+            <h1 class="logo"><a href="<?= base_url() ?>index.html">
                     <img src="<?= base_url() ?>assets\images\logo\sbm-logo.png" alt="logo sbm"></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="<?= base_url() ?>index.html" class="logo mr-auto"><img src="<?= base_url() ?>assets/assets/img/logo.png" alt=""></a>-->
@@ -107,80 +96,34 @@
 
         <?php $this->load->view($content); ?>
     </main>
-
+    <hr style="border-right: 300px solid #ddbd0e;width: 100px;display: inline;border-top: 0px;border-bottom: 0px;">
+    &nbsp; Supported by our experienced personnel throughout Indonesia
+    <div class="my-5"></div>
     <!-- ======= Footer ======= -->
-    <footer id="footer">
-
-        <div class="footer-top">
-            <div class="container">
+    <footer id="footer" style="background-color: #012060;padding-bottom:0px">
+        <div class="row">
+            <div class="col-sm-6">
+                <img style="width: 100px;" src="<?= base_url() ?>assets/images/logo/sbm-logo-white.jpeg" alt="footer logos">
+            </div>
+            <div class="col-sm-6 ">
                 <div class="row">
-
-                    <div class="col-lg-5 col-md-12 footer-contact text-center">
-                        <img src="<?= base_url() ?>assets\images\logo\sbm-logo.png" style="max-width: 100%; max-height:200px" alt="">
+                    <div class="col-sm-12">
+                        <span class="float-right mt-4 mr-5">
+                            <a href="#" class="mx-2"><i style="color: white;font-size: 20px;" class="icofont-facebook"></i></a>
+                            <a href="#" class="mx-2"><i style="color: white;font-size: 20px;" class="icofont-linkedin"></i></a>
+                            <a href="#" class="mx-2"><i style="color: white;font-size: 20px;" class="icofont-twitter"></i></a>
+                            <a href="#" class="mx-2"><i style="color: white;font-size: 20px;" class="icofont-google-plus"></i></a>
+                            &nbsp;
+                            &nbsp;
+                        </span>
                     </div>
-                    <div class="col-lg-4 col-md-6 footer-contact">
-                        <h5>PT Sagara Berkah Marine<span></span></h5>
-                        <p>
-                            KIRANA 2 TOWER, Floor 10th –A<br>
-                            JL. Boulevard Timur No. 88 <br>
-                            Kelapa Gading - Jakarta Utara 14240
-                            <br><br>
-                            <strong>Phone:</strong> +62 21 29222999
-                            <br>
-                            <strong>
-                                Email:
-                            </strong> official@sagarabm.com
-                            <br>
-                        </p>
+                    <div class="col-sm-12">
+                        <span class="float-right mr-5" style="color: white;">
+                            <small>&copy; 2020 - PT. SAGARA BERKAH MARINE - Design by Parani H_</small>
+                        </span>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>/">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>/our-business">Our Business</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>/about-us">About Us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>/contact">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>#">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>#">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>#">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>#">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>#">Graphic Design</a></li>
-                        </ul>
-                    </div> -->
-
-                    <!-- <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Social Networks</h4>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-                        <div class="social-links mt-3">
-                            <a href="<?= base_url() ?>#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            <a href="<?= base_url() ?>#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="<?= base_url() ?>#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="<?= base_url() ?>#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                            <a href="<?= base_url() ?>#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                        </div>
-                    </div> -->
-
                 </div>
-            </div>
-        </div>
 
-        <div class="container py-4">
-            <div class="copyright">
-                &copy; Copyright <strong><span>PT Sagara Berkah Marine</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bizland-bootstrap-business-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
         </div>
     </footer><!-- End Footer -->
