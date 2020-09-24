@@ -8,6 +8,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url(//db.onlinewebfonts.com/c/f60a44343900843957e92b12b46b71bb?family=Bank+Gothic);
+@font-face {
+	font-family: "Bank Gothic";
+	src: url("//db.onlinewebfonts.com/t/f60a44343900843957e92b12b46b71bb.eot");
+	src: url("//db.onlinewebfonts.com/t/f60a44343900843957e92b12b46b71bb.eot?#iefix")
+			format("embedded-opentype"),
+		url("//db.onlinewebfonts.com/t/f60a44343900843957e92b12b46b71bb.woff2")
+			format("woff2"),
+		url("//db.onlinewebfonts.com/t/f60a44343900843957e92b12b46b71bb.woff")
+			format("woff"),
+		url("//db.onlinewebfonts.com/t/f60a44343900843957e92b12b46b71bb.ttf")
+			format("truetype"),
+		url("//db.onlinewebfonts.com/t/f60a44343900843957e92b12b46b71bb.svg#Bank Gothic")
+			format("svg");
+}
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #444444;
@@ -1874,4 +1889,8 @@ section {
 		text-align: center;
 		padding: 2px 0;
 	}
+}
+
+.font-bank-gothic {
+	font-family: "Bank Gothic";
 }

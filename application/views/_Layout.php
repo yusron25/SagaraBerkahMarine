@@ -53,7 +53,7 @@
     <link href="<?= base_url() ?>assets/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="<?= base_url() ?>assets/assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="<?= base_url() ?>assets/assets/vendor/aos/aos.css" rel="stylesheet">
-
+    <link href="//db.onlinewebfonts.com/c/f60a44343900843957e92b12b46b71bb?family=Bank+Gothic" rel="stylesheet" type="text/css" />
     <!-- Template Main CSS File -->
     <link href="<?= base_url() ?>assets/assets/css/style.css" rel="stylesheet">
 
@@ -64,7 +64,7 @@
     <!-- ======= Top Bar ======= -->
     <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top" style="height: 50px;">
         <div class="container d-flex">
-            <div class="contact-info mr-auto" style="font-size: 24px;font-weight: bolder;">PT. SAGARA <span style="color: gold;">BERKAH</span> MARINE
+            <div class="contact-info mr-auto font-bank-gothic" style="font-size: 24px;font-weight: bolder;">PT. SAGARA <span style="color: gold;">BERKAH</span> MARINE
             </div>
         </div>
     </div>
@@ -98,6 +98,10 @@
     </main>
     <hr style="border-right: 300px solid #ddbd0e;width: 100px;display: inline;border-top: 0px;border-bottom: 0px;">
     &nbsp; Supported by our experienced personnel throughout Indonesia
+    <div class="my-5"></div>
+    <div>
+        <img src="<?= base_url() ?>assets/images/imgfooter.png" style="width: 100%;" alt="">
+    </div>
     <div class="my-5"></div>
     <!-- ======= Footer ======= -->
     <footer id="footer" style="background-color: #012060;padding-bottom:0px">
