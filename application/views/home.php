@@ -16,8 +16,10 @@
 
         <div class="row justify-content-md-center">
             <div class="col-sm-5 ">
-                <div>
-                    <div class="mb-1"><img style="width: 100%;" src="<?= base_url() ?>assets/images/vision.png" alt=""></div>
+                <div style="height: 100%;">
+                    <div class="mb-1" style="">
+                        <img style="width: 100%;" src="<?= base_url() ?>assets/images/vision.png" alt="">
+                    </div>
                     <div style="border: solid #012060;color: #012060;text-align:justify;padding: 2px;">
                         We are committed to deliver exceptional customer service quality and achieve to maintain reliable freight shipping service. To be a recognized and trust participant which offers value and premium services quality in the marine supply, surveyors and consultants.
                     </div>
@@ -25,10 +27,15 @@
             </div>
             <div class="col-md-1"></div>
             <div class="col-sm-5 ">
-                <div style="border: solid #012060;color: #012060;text-align:justify;padding: 2px;">
-                    To continuing improvement in logistics and service oriented based on customer focused, fast, timely and remaining cost effective to the client.
+                <div style="height:100%">
+                    <div style="border: solid #012060;color: #012060;text-align:justify;padding: 2px;padding-bottom:35px">
+                        To continuing improvement in logistics and service oriented based on customer focused, fast, timely and remaining cost effective to the client.
+                    </div>
+                    <div class="mt-1" style="">
+                        <img style="width: 100%;" src="<?= base_url() ?>assets/images/mission.png" alt="">
+                    </div>
                 </div>
-                <div class="mt-1"><img style="width: 100%;" src="<?= base_url() ?>assets/images/mission.png" alt=""></div>
+
             </div>
         </div>
 
