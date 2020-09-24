@@ -96,13 +96,13 @@
 
         <?php $this->load->view($content); ?>
     </main>
-    <hr style="border-right: 300px solid #ddbd0e;width: 100px;display: inline;border-top: 0px;border-bottom: 0px;">
+    <!-- <hr style="border-right: 300px solid #ddbd0e;width: 100px;display: inline;border-top: 0px;border-bottom: 0px;">
     &nbsp; Supported by our experienced personnel throughout Indonesia
     <div class="my-5"></div>
     <div>
-        <img src="<?= base_url() ?>assets/images/imgfooter.png" style="width: 100%;" alt="">
+        <img src="<?##= base_url() ?>assets/images/imgfooter.png" style="width: 100%;" alt="">
     </div>
-    <div class="my-5"></div>
+    <div class="my-5"></div> -->
     <!-- ======= Footer ======= -->
     <footer id="footer" style="background-color: #012060;padding-bottom:0px">
         <div class="row">
