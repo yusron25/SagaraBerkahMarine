@@ -14,6 +14,7 @@
                     <i class="bx bx-envelope" style="color: goldenrod;"></i>
                     <h3>Email Us</h3>
                     <p>official@sagarabm.com</p>
+                    <p>ops@sagarabm.com</p>
                 </div>
             </div>
 
@@ -21,7 +22,10 @@
                 <div class="info-box  mb-4">
                     <i class="bx bx-phone-call" style="color: goldenrod;"></i>
                     <h3>Call Us</h3>
-                    <p>+62 21 29222999</p>
+                    <p>+62 21 29222999 <br>
+                        +62 812 9077983 <br>
+                        +62 821 25692171
+                    </p>
                 </div>
             </div>
 
