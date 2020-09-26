@@ -10,7 +10,7 @@
 
 
             <div class="col-lg-6 col-md-6">
-                <div class="info-box  mb-4">
+                <div class="info-box  mb-4" style="height: 200px;">
                     <i class="bx bx-envelope" style="color: goldenrod;"></i>
                     <h3>Email Us</h3>
                     <p>official@sagarabm.com</p>
@@ -19,11 +19,11 @@
             </div>
 
             <div class="col-lg-6 col-md-6">
-                <div class="info-box  mb-4">
+                <div class="info-box  mb-4" style="height: 200px;">
                     <i class="bx bx-phone-call" style="color: goldenrod;"></i>
                     <h3>Call Us</h3>
-                    <p>+62 21 29222999 <br>
-                        +62 812 9077983 <br>
+                    <p>+62 21 29222999 |
+                        +62 812 9077983 |
                         +62 821 25692171
                     </p>
                 </div>
