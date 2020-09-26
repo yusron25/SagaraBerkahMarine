@@ -33,13 +33,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="info-box  mb-4">
-                    <i class="bx bx-map" style="color: goldenrod;"></i>
-                    <h3>Site Office Address</h3>
-                    <p>JL. Bugis Raya No. 122 <br> Bawang - Tg. Priok <br> Jakarta Utara 14320 - Indonesia</p>
-                </div>
-            </div>
+
 
         </div>
 
@@ -76,6 +70,25 @@
                     </div>
                     <div class="text-center"><button type="submit">Send Message</button></div>
                 </form>
+            </div>
+
+        </div>
+
+        <div class="my-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="info-box mb-4">
+                        <i class="bx bx-map" style="color: goldenrod;"></i>
+                        <h3>Site Office Address</h3>
+                        <p>JL. Bugis Raya No. 122 <br> Bawang - Tg. Priok <br> Jakarta Utara 14320 - Indonesia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1131630457744!2d106.88512331432277!3d-6.115465195571883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1fc0357e5625%3A0x42f3659b3d8c036e!2sJl.%20Bugis%20No.122%2C%20RT.5%2FRW.1%2C%20Kb.%20Bawang%2C%20Tj.%20Priok%2C%20Kota%20Jkt%20Utara%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2014320!5e0!3m2!1sid!2sid!4v1601109502545!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+                </div>
             </div>
 
         </div>

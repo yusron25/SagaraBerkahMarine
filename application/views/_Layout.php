@@ -81,7 +81,7 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li><a href="<?= base_url() ?>/" data-id="hero">Home</a></li>
-                    <li><a href="<?= base_url() ?>/our-business" data-id="business">Our Business</a></li>
+                    <!-- <li><a href="<?= base_url() ?>/our-business" data-id="business">Our Business</a></li> -->
                     <li><a href="<?= base_url() ?>/our-services" data-id="our-services">Our Services</a></li>
                     <li><a href="<?= base_url() ?>/why-us" data-id="about">Why Us</a></li>
                     <li><a href="<?= base_url() ?>/contact" data-id="contact">Contact</a></li>
