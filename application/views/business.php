@@ -1,8 +1,7 @@
-<section id="business" style="margin-top: 7rem;" class=" section-bg">
+<section id="business" class=" section-bg">
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <h2>Services</h2>
             <h3>Our <span>Business</span></h3>
             <img class="img-fluid" src="assets\images\bisnis.png" alt="">
         </div>

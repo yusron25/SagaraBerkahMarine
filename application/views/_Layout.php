@@ -61,16 +61,16 @@
 
 <body>
 
-    <!-- ======= Top Bar ======= -->
-    <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top" style="height: 50px;">
+    <!-- ======= Top Bar ======= fixed-top -->
+    <div id="topbar" class="d-none d-lg-flex align-items-center " style="height: 80px;">
         <div class="container d-flex">
             <div class="contact-info mr-auto font-bank-gothic" style="font-size: 24px;font-weight: bolder;">PT. SAGARA <span style="color: gold;">BERKAH</span> MARINE
             </div>
         </div>
     </div>
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+    <!-- ======= Header ======= fixed-top -->
+    <header id="header" class="">
         <div class="container d-flex align-items-center">
 
             <h1 class="logo"><a href="<?= base_url() ?>index.html">
@@ -82,7 +82,8 @@
                 <ul>
                     <li><a href="<?= base_url() ?>/" data-id="hero">Home</a></li>
                     <li><a href="<?= base_url() ?>/our-business" data-id="business">Our Business</a></li>
-                    <li><a href="<?= base_url() ?>/about-us" data-id="about">About Us</a></li>
+                    <li><a href="<?= base_url() ?>/our-services" data-id="our-services">Our Services</a></li>
+                    <li><a href="<?= base_url() ?>/why-us" data-id="about">Why Us</a></li>
                     <li><a href="<?= base_url() ?>/contact" data-id="contact">Contact</a></li>
 
                 </ul>
@@ -98,7 +99,7 @@
     </main>
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" style="background-color: #012060;padding-bottom:0px">
+    <footer id="footer" style="background-color: #012060;padding-bottom:0px ; line-height:40px">
         <div class="row">
             <div class="col-sm-6">
                 <img style="width: 100px;" src="<?= base_url() ?>assets/images/logo/sbm-logo-white.jpeg" alt="footer logos">
