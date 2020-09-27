@@ -113,11 +113,11 @@
     <footer id="footer" style="background-color: #012060;padding-bottom:0px ; line-height:40px">
         <div class="row">
             <div class="col-sm-2">
-                <img style="width: 100px;" src="http://localhost:9001/assets/images/logo/sbm-logo-white.jpeg" alt="footer logos">
+                <img style="width: 100px;" src="<?= base_url() ?>assets/images/logo/sbm-logo-white.jpeg" alt="footer logos">
 
             </div>
-            <div class="col-sm-6" style="">
-                <nav style="" class="mt-3 nav-menu d-none d-lg-block">
+            <div class="col-sm-6">
+                <nav class="mt-3 nav-menu d-none d-lg-block">
                     <ul>
                         <li><a href="<?= base_url() ?>/" data-id="hero" style="color: white;">Home</a></li>
                         <!-- <li><a href="<?= base_url() ?>/our-business" data-id="business">Our Business</a></li> -->
