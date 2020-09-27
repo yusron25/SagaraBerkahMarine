@@ -112,7 +112,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" style="background-color: #012060;padding-bottom:0px ; line-height:40px">
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-2 text-center">
                 <img style="width: 100px;" src="<?= base_url() ?>assets/images/logo/sbm-logo-white.jpeg" alt="footer logos">
 
             </div>
