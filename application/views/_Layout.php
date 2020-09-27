@@ -63,8 +63,19 @@
 
     <!-- ======= Top Bar ======= fixed-top -->
     <div id="topbar" class="d-none d-lg-flex align-items-center " style="height: 80px;">
-        <div class="container d-flex">
-            <div class="contact-info mr-auto font-bank-gothic" style="font-size: 24px;font-weight: bolder;">PT. SAGARA <span style="color: gold;">BERKAH</span> MARINE
+        <div class="container ">
+            <div class="contact-info mr-auto ">
+                <div class="row">
+                    <div style="font-size: 24px;font-weight: bolder;" class="col-sm-8 font-bank-gothic mt-2">
+                        <span style="vertical-align: text-top;"> PT. SAGARA <span style="color: gold;">BERKAH</span> MARINE</span>
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <span class="float-right"> &nbsp;&nbsp;&nbsp; <i class="icofont-telephone"></i> +62 21 29222999 <br><i class="icofont-envelope"></i> official@sagarabm.com <br><i class="icofont-envelope"></i> ops@sagarabm.com</span>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -101,10 +112,23 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" style="background-color: #012060;padding-bottom:0px ; line-height:40px">
         <div class="row">
-            <div class="col-sm-6">
-                <img style="width: 100px;" src="<?= base_url() ?>assets/images/logo/sbm-logo-white.jpeg" alt="footer logos">
+            <div class="col-sm-2">
+                <img style="width: 100px;" src="http://localhost:9001/assets/images/logo/sbm-logo-white.jpeg" alt="footer logos">
+
             </div>
-            <div class="col-sm-6 ">
+            <div class="col-sm-6" style="">
+                <nav style="" class="mt-3 nav-menu d-none d-lg-block">
+                    <ul>
+                        <li><a href="<?= base_url() ?>/" data-id="hero" style="color: white;">Home</a></li>
+                        <!-- <li><a href="<?= base_url() ?>/our-business" data-id="business">Our Business</a></li> -->
+                        <li><a href="<?= base_url() ?>/our-services" data-id="our-services" style="color: white;">Our Services</a></li>
+                        <li><a href="<?= base_url() ?>/why-us" data-id="about" style="color: white;">Why Us</a></li>
+                        <li><a href="<?= base_url() ?>/contact" data-id="contact" style="color: white;">Contact</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-4 ">
                 <div class="row">
                     <div class="col-sm-12">
                         <span class="float-right mt-4 mr-5">
@@ -118,7 +142,7 @@
                     </div>
                     <div class="col-sm-12">
                         <span class="float-right mr-5" style="color: white;">
-                            <small>&copy; 2020 - PT. SAGARA BERKAH MARINE - Design by Parani H_</small>
+                            <small>© 2020 - PT. SAGARA BERKAH MARINE - Design by Parani H_</small>
                         </span>
                     </div>
                 </div>
