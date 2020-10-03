@@ -1,10 +1,10 @@
 <!-- ======= About Section ======= -->
 <section id="about" class="about section-bg" style="color: #012b77;">
 
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-down">
 
-        <div class="section-title">
-            <h3>Why Us</h3>
+        <div class="section-title" style="padding-bottom: 0px;">
+            <h3 style="display: inline-block;top: 45px;position: relative;padding: 5px 30px;background: #f6f9fe;">Why Us</h3>
         </div>
 
 
@@ -101,3 +101,6 @@
         </div>
     </div>
 </section><!-- End About Section -->
+<hr style="border-right: 300px solid #ddbd0e;width: 100px;display: inline;border-top: 0px;border-bottom: 0px;">
+&nbsp; Supported by our experienced personnel throughout Indonesia
+<div class="my-5"></div>

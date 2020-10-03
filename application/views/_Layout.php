@@ -72,7 +72,11 @@
 
 
                     <div class="col-sm-4">
-                        <span class="float-right"> &nbsp;&nbsp;&nbsp; <i class="icofont-telephone"></i> +62 21 29222999 <br><i class="icofont-envelope"></i> official@sagarabm.com <br><i class="icofont-envelope"></i> ops@sagarabm.com</span>
+                        <span class="float-right">
+                            <div><i class="icofont-telephone"></i> +62 21 29222999</div>
+                            <div><i class="icofont-envelope"></i> official@sagarabm.com <br></div>
+                            <div><i class="icofont-envelope"></i> ops@sagarabm.com</div>
+                        </span>
 
                     </div>
                 </div>
@@ -113,10 +117,10 @@
     <footer id="footer" style="background-color: #012060;padding-bottom:0px ; line-height:40px">
         <div class="row">
             <div class="col-sm-2 text-center">
-                <img style="width: 100px;" src="<?= base_url() ?>assets/images/logo/sbm-logo-white.jpeg" alt="footer logos">
+                <img class="mt-3" style="width: 100px;" src="<?= base_url() ?>assets/images/logo/sbm-logo-white.jpeg" alt="footer logos">
 
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <nav class="mt-3 nav-menu d-none d-lg-block">
                     <ul>
                         <li><a href="<?= base_url() ?>/" data-id="hero" style="color: white;">Home</a></li>
@@ -128,7 +132,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-sm-4 ">
+            <div class="col-sm-5 ">
                 <div class="row">
                     <div class="col-sm-12">
                         <span class="float-right mt-4 mr-5">
@@ -141,8 +145,8 @@
                         </span>
                     </div>
                     <div class="col-sm-12">
-                        <span class="float-right mr-5" style="color: white;">
-                            <small>© 2020 - PT. SAGARA BERKAH MARINE - Design by Parani H_</small>
+                        <span class="float-right " style="color: white;margin-right:60px">
+                            <small style="font-size: 70%;">© 2020 - PT. SAGARA BERKAH MARINE - All Rights Reserved Design by Parani H_</small>
                         </span>
                     </div>
                 </div>

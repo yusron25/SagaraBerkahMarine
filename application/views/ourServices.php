@@ -2,7 +2,7 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <h3 style="color: #012b77;">PT. SAGARA <span style="color: #d4af37;">BERKAH</span> MARINE <span style="text-decoration: underline;">SERVICES</span> </h3>
+            <h3 style="color: #012b77;">PT. SAGARA <span style="color: #d4af37;">BERKAH</span> MARINE <span style="font-size: larger;text-decoration: underline;">SERVICES</span> </h3>
             <img class="img-fluid" src="<?= base_url() ?>assets\images\our-services.png" alt="our-services">
         </div>
 
@@ -86,3 +86,6 @@
 
     </div>
 </section>
+<hr style="border-right: 300px solid #ddbd0e;width: 100px;display: inline;border-top: 0px;border-bottom: 0px;">
+&nbsp; Supported by our experienced personnel throughout Indonesia
+<div class="my-5"></div>
