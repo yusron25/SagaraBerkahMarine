@@ -349,6 +349,12 @@ h6 {
 	right: 15px;
 }
 
+@media (min-width: 600px) {
+	.nav-white ul li a {
+		color: white;
+	}
+}
+
 @media (max-width: 1366px) {
 	.nav-menu .drop-down .drop-down ul {
 		left: -90%;

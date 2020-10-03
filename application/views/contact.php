@@ -39,7 +39,7 @@
                     <div class="col-lg-12">
                         <div class="info-box mb-4">
                             <i class="bx bx-map" style="color: goldenrod;"></i>
-                            <h3>Our Address</h3>
+                            <h3>Office Address</h3>
                             <p> KIRANA 2 TOWER, Floor 10th –A<br>
                                 JL. Boulevard Timur No. 88 <br>
                                 Kelapa Gading - Jakarta Utara 14240</p>
@@ -108,6 +108,3 @@
 
     </div>
 </section><!-- End Contact Section -->
-<hr style="border-right: 300px solid #ddbd0e;width: 100px;display: inline;border-top: 0px;border-bottom: 0px;">
-&nbsp; <span style="color: #002060;">Supported by our experienced personnel throughout Indonesia</span>
-<div class="my-5"></div>

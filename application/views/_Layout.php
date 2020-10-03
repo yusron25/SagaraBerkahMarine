@@ -121,13 +121,13 @@
 
             </div>
             <div class="col-sm-5">
-                <nav class="mt-3 nav-menu d-none d-lg-block">
+                <nav class="mt-3 nav-menu d-none d-lg-block nav-white">
                     <ul>
-                        <li><a href="<?= base_url() ?>/" data-id="hero" style="color: white;">Home</a></li>
+                        <li><a href="<?= base_url() ?>/" data-id="hero">Home</a></li>
                         <!-- <li><a href="<?= base_url() ?>/our-business" data-id="business">Our Business</a></li> -->
-                        <li><a href="<?= base_url() ?>/our-services" data-id="our-services" style="color: white;">Our Services</a></li>
-                        <li><a href="<?= base_url() ?>/why-us" data-id="about" style="color: white;">Why Us</a></li>
-                        <li><a href="<?= base_url() ?>/contact" data-id="contact" style="color: white;">Contact</a></li>
+                        <li><a href="<?= base_url() ?>/our-services" data-id="our-services">Our Services</a></li>
+                        <li><a href="<?= base_url() ?>/why-us" data-id="about">Why Us</a></li>
+                        <li><a href="<?= base_url() ?>/contact" data-id="contact">Contact</a></li>
 
                     </ul>
                 </nav>
