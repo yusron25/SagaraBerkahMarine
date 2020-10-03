@@ -87,5 +87,5 @@
     </div>
 </section>
 <hr style="border-right: 300px solid #ddbd0e;width: 100px;display: inline;border-top: 0px;border-bottom: 0px;">
-&nbsp; Supported by our experienced personnel throughout Indonesia
+&nbsp; <span style="color: #002060;">Supported by our experienced personnel throughout Indonesia</span>
 <div class="my-5"></div>
