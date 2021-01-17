@@ -44,23 +44,16 @@
             </ul>    
             <div class="row justify-content-md-center">
                 <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\a1.png" alt="">
+                    <img style="width:100%  " src="assets\images\a1.jpg" alt="">
                 </div>
                 <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\a2.png" alt="">
+                    <img style="width:100%" src="assets\images\a2.jpg" alt="">
                 </div>
                 <div class="col-sm-3">
                     <img style="width:100%" src="assets\images\a3.png" alt="">
                 </div>
                 <div class="col-sm-3">
                     <img style="width:100%" src="assets\images\a4.png" alt="">
-                </div>
-
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\a5.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\a6.png" alt="">
                 </div>
             </div>    
         </div>
@@ -117,18 +110,23 @@
                     <img style="width:100%" src="assets\images\b2.png" alt="">
                 </div>
                 <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\b3.jpg" alt="">
+                    <img style="width:100%" src="assets\images\b3.png" alt="">
                 </div>
                 <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\b4.jpg" alt="">
+                    <img style="width:100%" src="assets\images\b4.png" alt="">
                 </div>
 
+                <div class="col-sm-3">
+                    <img style="width:100%" src="assets\images\b5.png" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img style="width:100%" src="assets\images\b6.png" alt="">
+                </div>
             </div> 
         </div>
 
         <div id="repair" class="decontent"> 
-        With highly experienced and full skilled technician/engineer in each section which will solve the
-problem on board
+            With highly experienced and full skilled technician/engineer in each section which will solve the problem on board
             <ul style="list-style-type: square;">
                 <li>Engine Overhaul</li>
                 <li>Electro Motor repair/rewind</li>
@@ -148,21 +146,14 @@ problem on board
                     <img style="width:100%" src="assets\images\c2.png" alt="">
                 </div>
                 <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\c3.png" alt="">
+                    <img style="width:100%" src="assets\images\c3.jpg" alt="">
                 </div>
                 <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\c4.png" alt="">
+                    <img style="width:100%" src="assets\images\c4.jpg" alt="">
                 </div>
 
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\c5.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\c6.png" alt="">
-                </div>
             </div> 
         </div>
-
         <div id="surveyor" class="decontent">
             <p>The following are a brief outline of some of the various types of survey and consultancy work<br />undertaken:</p>
             <ul style="list-style-type: square;">
@@ -186,11 +177,31 @@ problem on board
                 <div class="col-sm-3">
                     <img style="width:100%" src="assets\images\d3.png" alt="">
                 </div>
+                <div class="col-sm-3">
+                    <img style="width:100%" src="assets\images\d4.png" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img style="width:100%" src="assets\images\d5.png" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img style="width:100%" src="assets\images\d6.png" alt="">
+                </div>
             </div> 
         </div>
 
         <div id="shipping" class="decontent">
             <p>Agency service is one of PT. SAGARA BERKAH MARINE service consist of shipping agency for domestic and foreign ships, supported by our experienced personnel throughout Indonesia. We are growing and expanding our businesses in Indonesia by providing a full range of shipping agency for all types of vessels such as Tanker vessels, Container vessels, Bulk vessels, General cargo vessels, roll on – roll off (RORO) vessels and others.</p>
+            <div class="row justify-content-md-center">
+                <div class="col-sm-3">
+                    <img style="width:100%" src="assets\images\e1.png" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img style="width:100%" src="assets\images\e2.png" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img style="width:100%" src="assets\images\e3.png" alt="">
+                </div>
+            </div> 
         </div>
 
     </div>
