@@ -56,7 +56,9 @@
     <link href="//db.onlinewebfonts.com/c/f60a44343900843957e92b12b46b71bb?family=Bank+Gothic" rel="stylesheet" type="text/css" />
     <!-- Template Main CSS File -->
     <link href="<?= base_url() ?>assets/assets/css/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -96,11 +98,11 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li><a href="<?= base_url() ?>/" data-id="hero">Home</a></li>
-                    <!-- <li><a href="<?= base_url() ?>/our-business" data-id="business">Our Business</a></li> -->
+                    <li><a href="<?= base_url() ?>/our-business" data-id="business">Our Business</a></li>
                     <li><a href="<?= base_url() ?>/our-services" data-id="our-services">Our Services</a></li>
                     <li><a href="<?= base_url() ?>/why-us" data-id="about">Why Us</a></li>
                     <li><a href="<?= base_url() ?>/contact" data-id="contact">Contact</a></li>
-
+                   
                 </ul>
             </nav><!-- .nav-menu -->
 

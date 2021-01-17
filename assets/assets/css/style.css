@@ -1900,3 +1900,82 @@ section {
 .font-bank-gothic {
 	font-family: "Bank Gothic";
 }
+
+@media (max-width: 600px) {
+	.flex-container {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: grid;
+	  }
+}
+@media (min-width: 600px) {
+	.flex-container {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: flex;
+	  }
+}
+  
+  .flex-start { 
+	justify-content: flex-start; 
+  }
+  
+  .flex-end { 
+	justify-content: flex-end; 
+  }  
+  .flex-end li {
+	background: gold;
+  }
+  
+  .center { 
+	justify-content: center; 
+  }  
+  .center li {
+	background: deepskyblue;
+  }
+  
+  .space-between { 
+	justify-content: space-between; 
+  }  
+  /* .space-between li {
+	background: lightgreen;
+  } */
+  
+  .space-around { 
+	justify-content: space-around; 
+  }
+  .space-around li {
+	background: hotpink; 
+  }
+  
+  .space-evenly { 
+	justify-content: space-evenly; 
+  }
+  /* .space-evenly li {
+	background: #012b77; 
+  } */
+  .flex-item.active  {
+	background: #d4af37;
+  }
+
+  .flex-item {
+	background: #012b77;
+	padding: 5px;
+	width: 150px;
+	height: 70px;
+	margin: 5px;
+	line-height: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+  }
+  .decontent {
+	display: none;
+	color: #012b77;
+  }
+
+  
