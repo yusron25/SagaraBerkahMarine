@@ -3,7 +3,7 @@
 
         <div class="section-title" style="padding:0px">
             <!-- <h3>Our <span>Business</span></h3> -->
-            <img class="img-fluid" src="assets\images\image27 (1).png" alt="">
+            <img class="img-fluid" src="assets\images\our-business-header.png" alt="">
             <div style="
                         text-align: right;
                         position: relative;
