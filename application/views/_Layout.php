@@ -53,12 +53,30 @@
     <link href="<?= base_url() ?>assets/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="<?= base_url() ?>assets/assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="<?= base_url() ?>assets/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?=base_url()?>assets/magnifiction-popup/magnific-popup.css">
     <link href="//db.onlinewebfonts.com/c/f60a44343900843957e92b12b46b71bb?family=Bank+Gothic" rel="stylesheet" type="text/css" />
     <!-- Template Main CSS File -->
     <link href="<?= base_url() ?>assets/assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  
+    <!-- Vendor JS Files -->
+    <script src="<?= base_url() ?>assets/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="<?= base_url() ?>assets/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url() ?>assets/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="<?= base_url() ?>assets/assets/vendor/php-email-form/validate.js"></script>
+    <script src="<?= base_url() ?>assets/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="<?= base_url() ?>assets/assets/vendor/counterup/counterup.min.js"></script>
+    <script src="<?= base_url() ?>assets/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="<?= base_url() ?>assets/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="<?= base_url() ?>assets/assets/vendor/venobox/venobox.min.js"></script>
+    <script src="<?= base_url() ?>assets/assets/vendor/aos/aos.js"></script>
+
+  <script src="<?=base_url()?>assets/magnifiction-popup/jquery.magnific-popup.js"></script>
+    <!-- Template Main JS File -->
+    <script src="<?= base_url() ?>assets/assets/js/main.js"></script>
 </head>
 
 <body>
@@ -160,20 +178,6 @@
     <!-- <div id="preloader"></div> -->
     <a href="<?= base_url() ?>#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-    <!-- Vendor JS Files -->
-    <script src="<?= base_url() ?>assets/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="<?= base_url() ?>assets/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url() ?>assets/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="<?= base_url() ?>assets/assets/vendor/php-email-form/validate.js"></script>
-    <script src="<?= base_url() ?>assets/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="<?= base_url() ?>assets/assets/vendor/counterup/counterup.min.js"></script>
-    <script src="<?= base_url() ?>assets/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="<?= base_url() ?>assets/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="<?= base_url() ?>assets/assets/vendor/venobox/venobox.min.js"></script>
-    <script src="<?= base_url() ?>assets/assets/vendor/aos/aos.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="<?= base_url() ?>assets/assets/js/main.js"></script>
 
 </body>
 

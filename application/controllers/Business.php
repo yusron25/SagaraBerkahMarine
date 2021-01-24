@@ -5,6 +5,18 @@ class Business extends MY_Controller
 {
     public function index()
     {
-        $this->Layout('business');
+		$gallery = $this->gallery();
+        $this->Layout('business',$gallery);
     }
+
+
+	private function gallery(){
+
+        $path['a'] = glob("assets/images/gallery/a/*.*");
+        $path['b'] = glob("assets/images/gallery/b/*.*");
+        $path['c'] = glob("assets/images/gallery/c/*.*");
+        $path['d'] = glob("assets/images/gallery/d/*.*");
+        $path['e'] = glob("assets/images/gallery/e/*.*");
+		return $path;
+	}
 }

@@ -1,24 +1,17 @@
-<section id="business" class=" section-bg">
-    <div class="container" data-aos="fade-up">
+<!-- ======= Hero Section ======= -->
+<section id="business" style="background-image:url('<?= base_url() ?>assets/images/our-business-header.png')" class="hero d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        
+        <h1 style="color: white;text-align: right;">Our Bussiness</h1>
+        <h2 style="color: white;text-align: right;">PT. SAGARA BERKAH MARINE</h2>
+    </div>
 
-        <div class="section-title" style="padding:0px">
-            <!-- <h3>Our <span>Business</span></h3> -->
-            <img class="img-fluid" src="assets\images\our-business-header.png" alt="">
-            <div style="
-                        text-align: right;
-                        position: relative;
-                        top: -150px;
-                        left: 200px;
-                        color: white;
-                    ">            
-                <p style="
-                        font-size: 24px;
-                    ">Our Bussiness</p>
-                <p>PT. SAGARA BERKAH MARINE</p>
-            </div>
-        </div>
-        <!-- ############################################### -->
-        <ul class="flex-container space-between">
+</section>
+
+<div  class="about section-bg">
+    <div class="container-fluid my-5" data-aos="fade-up">
+
+    <ul class="flex-container space-between">
             <li class="flex-item active" onclick="ourbusinessitem(this,'marinesupply')">MARINE <br> SUPPLY </li>
             <li class="flex-item" onclick="ourbusinessitem(this,'service')">SERVICE INSTALLATION</li>
             <li class="flex-item" onclick="ourbusinessitem(this,'repair')">REPAIR AND FABRICATION</li>
@@ -26,7 +19,10 @@
             <li class="flex-item" onclick="ourbusinessitem(this,'shipping')">SHIPPING <br> AGENCY</li>
         </ul>
         <br>
-        <div id="marinesupply" style="display:block" class="decontent">
+        <!-- <div class="flex-item active" onclick="ourbusinessitem(this,'marinesupply')">
+            MARINE SUPPLY
+        </div> -->
+        <div id="marinesupply" style="display:block; " class="decontent">
             High quality with Safety Of Life At Sea (SOLAS) standard
 
             <ul>
@@ -42,21 +38,22 @@
                 <li>Chemical product for maintenance, water/oil treatment, cleaning,
                         pollution control.</li>
             </ul>    
+            
             <div class="row justify-content-md-center">
-                <div class="col-sm-3">
-                    <img style="width:100%  " src="assets\images\a1.jpg" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\a2.jpg" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\a3.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\a4.png" alt="">
-                </div>
+                <?php foreach ( $gallery['a'] as $key => $gal ): ?>
+                    <div class="col-sm-3 popup-gallery">
+                        <a href="<?=base_url()?>/<?=$gal?>" >
+                            <img style="width:100%"  src="<?=base_url()?>/<?=$gal?>" alt="">
+                        </a>
+                    </div>                    
+                <?php endforeach ?>
             </div>    
         </div>
+
+
+        <!-- <div class="flex-item" onclick="ourbusinessitem(this,'service')">
+            SERVICE INSTALLATION
+        </div> -->
         <div id="service" class="decontent">
 
             Engineering – Constructions - Mechanical
@@ -103,27 +100,16 @@
                 </li>
             </ul>
             <div class="row justify-content-md-center">
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\b1.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\b2.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\b3.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\b4.png" alt="">
-                </div>
-
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\b5.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\b6.png" alt="">
-                </div>
-            </div> 
+                <?php foreach ( $gallery['b'] as $key => $gal ): ?>
+                    <div class="col-sm-3 popup-gallery">
+                        <a href="<?=base_url()?>/<?=$gal?>" >
+                            <img style="width:100%"  src="<?=base_url()?>/<?=$gal?>" alt="">
+                        </a>
+                    </div>                    
+                <?php endforeach ?>
+            </div>    
         </div>
+
 
         <div id="repair" class="decontent"> 
             With highly experienced and full skilled technician/engineer in each section which will solve the problem on board
@@ -139,20 +125,14 @@
                 <li>Etc.</li>
             </ul>
             <div class="row justify-content-md-center">
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\c1.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\c2.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\c3.jpg" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\c4.jpg" alt="">
-                </div>
-
-            </div> 
+                <?php foreach ( $gallery['c'] as $key => $gal ): ?>
+                    <div class="col-sm-3 popup-gallery">
+                        <a href="<?=base_url()?>/<?=$gal?>" >
+                            <img style="width:100%"  src="<?=base_url()?>/<?=$gal?>" alt="">
+                        </a>
+                    </div>                    
+                <?php endforeach ?>
+            </div>     
         </div>
         <div id="surveyor" class="decontent">
             <p>The following are a brief outline of some of the various types of survey and consultancy work<br />undertaken:</p>
@@ -168,53 +148,75 @@
                 <li>Flag State Annual Safety Inspections</li>
             </ul>
             <div class="row justify-content-md-center">
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\d1.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\d2.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\d3.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\d4.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\d5.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\d6.png" alt="">
-                </div>
-            </div> 
+                <?php foreach ( $gallery['d'] as $key => $gal ): ?>
+                    <div class="col-sm-3 popup-gallery">
+                        <a href="<?=base_url()?>/<?=$gal?>" >
+                            <img style="width:100%"  src="<?=base_url()?>/<?=$gal?>" alt="">
+                        </a>
+                    </div>                    
+                <?php endforeach ?>
+            </div>    
         </div>
 
         <div id="shipping" class="decontent">
             <p>Agency service is one of PT. SAGARA BERKAH MARINE service consist of shipping agency for domestic and foreign ships, supported by our experienced personnel throughout Indonesia. We are growing and expanding our businesses in Indonesia by providing a full range of shipping agency for all types of vessels such as Tanker vessels, Container vessels, Bulk vessels, General cargo vessels, roll on – roll off (RORO) vessels and others.</p>
             <div class="row justify-content-md-center">
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\e1.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\e2.png" alt="">
-                </div>
-                <div class="col-sm-3">
-                    <img style="width:100%" src="assets\images\e3.png" alt="">
-                </div>
-            </div> 
+                <?php foreach ( $gallery['e'] as $key => $gal ): ?>
+                    <div class="col-sm-3 popup-gallery">
+                        <a href="<?=base_url()?>/<?=$gal?>" >
+                            <img style="width:100%"  src="<?=base_url()?>/<?=$gal?>" alt="">
+                        </a>
+                    </div>                    
+                <?php endforeach ?>
+            </div>    
         </div>
 
     </div>
-</section>
+</div><!-- End Business Section -->
+<!-- 
+<hr style="border-right: 300px solid #ddbd0e;width: 100px;display: inline;border-top: 0px;border-bottom: 0px;">
+&nbsp; <span style="color: #002060;">Supported by our experienced personnel throughout Indonesia</span>
+<div class="my-5"></div>
+<div>
+    <img src="<?= base_url() ?>assets/images/imgfooter.png" style="width: 100%;" alt="">
+</div>
+<div class="my-5"></div> -->
+
+<!-- ############################# -->
+
+<script>
+    $(document).ready(function() {
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            tLoading: 'Loading image #%curr%...',
+            mainClass: 'mfp-img-mobile',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+            },
+            image: {
+                tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                titleSrc: function(item) {
+                    return '';
+                    // item.el.attr('title') + '';
+                }
+            }
+        });
+    });
+</script>
 
 <script>
     function ourbusinessitem(id, idcontent){
-        $(".decontent").hide();
+        
         if(!$(id).hasClass("active")){
-            
+            $(".decontent").hide();
             $(".flex-item").removeClass("active")
             $(id).addClass("active");
             $("#"+idcontent).show();
         }          
     }
+
+    
 </script>

@@ -8,6 +8,11 @@
 
         <div class="row">
             <div class="col-sm-12">
+                <span style="color: #012b77;font-weight:900;" class="text-justify">
+                To engage and participate in the marine industry efficiently and responsibly as a marine supply, Surveyors and Consultant conscientious to health and safety, We go all the way to enable global trade for a growing world and adapt in the changing times and sustainable grow as a company to serve our clients better by cooperate with local partner at all Indonesia ports, with Jakarta and Surabaya as the central ports.
+                </span>
+            </div>
+            <div class="col-sm-12">
                 <h1 style="color: #012b77;" class="text-center">
                     <i style="color: #d99694;" class="icofont-google-map"></i> All Indonesia Port <i style="color: #d99694;" class="icofont-google-map"></i>
                 </h1>
