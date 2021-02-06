@@ -75,8 +75,6 @@
     <script src="<?= base_url() ?>assets/assets/vendor/aos/aos.js"></script>
 
   <script src="<?=base_url()?>assets/magnifiction-popup/jquery.magnific-popup.js"></script>
-    <!-- Template Main JS File -->
-    <script src="<?= base_url() ?>assets/assets/js/main.js"></script>
 </head>
 
 <body>
@@ -115,7 +113,7 @@
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li><a href="<?= base_url() ?>/" data-id="hero">Home</a></li>
+                    <li><a href="<?= base_url() ?>/" data-id="home">Home</a></li>
                     <li><a href="<?= base_url() ?>/our-business" data-id="business">Our Business</a></li>
                     <li><a href="<?= base_url() ?>/our-services" data-id="our-services">Our Services</a></li>
                     <li><a href="<?= base_url() ?>/why-us" data-id="about">Why Us</a></li>
@@ -181,4 +179,6 @@
 
 </body>
 
+    <!-- Template Main JS File -->
+    <script src="<?= base_url() ?>assets/assets/js/main.js"></script>
 </html>

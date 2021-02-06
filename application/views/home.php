@@ -1,5 +1,5 @@
 <!-- ======= Hero Section ======= -->
-<section class="hero d-flex align-items-center">
+<section id="home" class="hero d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
         <h1 style="color: white;">Solution of Indonesian Marine</h1>
         <h2 style="color: white;">Ship any types equipment of your marine requirement</h2>
