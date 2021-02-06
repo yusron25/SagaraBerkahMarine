@@ -1,9 +1,12 @@
 <!-- ======= Hero Section ======= -->
-<section id="business" style="background-image:url('<?= base_url() ?>assets/images/our-business-header.png')" class="hero d-flex align-items-center">
+<section id="business" 
+style="background-image:url('<?= base_url() ?>assets/images/our-business-header.png');
+height: 500px;background-position-y: -200px;background-position-x: center;" 
+class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
         
-        <h1 style="color: white;text-align: right;">Our Bussiness</h1>
-        <h2 style="color: white;text-align: right;">PT. SAGARA BERKAH MARINE</h2>
+        <h1  style="color: white;text-align: right;font-weight: 900;">Our Bussiness</h1>
+        <h4 class="font-bank-gothic" style="color: white;text-align: right;">PT. SAGARA BERKAH MARINE</h4>
     </div>
 
 </section>

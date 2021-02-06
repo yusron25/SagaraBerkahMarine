@@ -2,13 +2,13 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <h3 style="color: #012b77;">PT. SAGARA <span style="color: #d4af37;">BERKAH</span> MARINE <span style="font-size: larger;text-decoration: underline;">SERVICES</span> </h3>
+            <h3 class="font-bank-gothic" style="color: #012b77;">PT. SAGARA <span style="color: #d4af37;">BERKAH</span> MARINE <span style="font-size: larger;text-decoration: underline;">SERVICES</span> </h3>
             <img class="img-fluid" src="<?= base_url() ?>assets\images\our-services.png" alt="our-services">
         </div>
 
         <div class="row">
             <div class="col-sm-12">
-                <span style="color: #012b77;font-weight:900;" class="text-justify">
+                <span style="color: #012b77;font-size:large" class="text-justify">
                 To engage and participate in the marine industry efficiently and responsibly as a marine supply, Surveyors and Consultant conscientious to health and safety, We go all the way to enable global trade for a growing world and adapt in the changing times and sustainable grow as a company to serve our clients better by cooperate with local partner at all Indonesia ports, with Jakarta and Surabaya as the central ports.
                 </span>
             </div>
